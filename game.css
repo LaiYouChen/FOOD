@@ -1,0 +1,91 @@
+body {
+    background-color: #eeeeee;
+    }
+    .grid {
+        margin-top: 2%;    
+        width: 80%;
+        height: 750px;
+        margin-left: 10%;
+        background-color: #fff;
+        padding: 10px 50px 50px 50px;
+        border-radius: 75px;
+        border: 2px solid #cbcbcb;
+        box-shadow: 10px 15px 5px #cbcbcb;
+    }
+    
+     .buttons img
+    {
+    height:100%;
+    width:100%;
+    } 
+    .grid h1 {
+    font-family: "sans-serif";
+    background-color: #079cff;
+    font-size: 45px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 50px;
+    }
+    hr
+    {
+    margin-top: 50px;
+        color: red;
+        background-color: #079cff;
+        height: 2px;
+        border: none;
+    }
+    #score {
+        color: #079cff;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .grid #qNumber {
+        font-family: "monospace";
+        font-size: 30px;
+        color: #1895e9;
+    }
+    
+    .buttons {
+        
+        margin-top: 30px;
+        display: flex;
+justify-content: center;
+    }
+    
+    #btn0,#btn1,#btn2, #btn3{
+        padding: 1%;
+        font-size: 20px;
+        color: #079cff;
+        border: none;
+        margin: 10px 20px 10px 0px;
+        height:15%;
+        width:20%;
+    }
+    /* 圖片背景顏色 */
+    #btn0:hover,#btn1:hover,#btn2:hover,#btn3:hover {
+        cursor: pointer;
+        background-color: #079cff;
+    }
+    
+    #btn0:focus,#btn1:focus,#btn2:focus,#btn3:focus {
+        outline: 0;
+    }
+    /* 題號 */
+    #problem {
+        color: #079cff;
+        font-size: 24px;
+        font-family: Microsoft JhengHei;
+    }
+     #btn5 {
+        font-family: "sans-serif";
+        background-color: #079cff;
+        font-size: 33px;
+        text-align: center;
+        color: #ffffff;
+        width : 100%;
+        border-radius: 50px;
+      }
